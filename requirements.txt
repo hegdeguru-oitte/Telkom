@@ -1,0 +1,5 @@
+streamlit
+cx_Oracle
+pandas
+plotly
+openpyxl
