@@ -53,7 +53,7 @@ st.markdown("""
 
 # Initialize Oracle client only if it hasn't been initialized yet
 try:
-    cx_Oracle.init_oracle_client(lib_dir=r"C:\Users\gurhegde\Downloads\instantclient_21_13")
+    cx_Oracle.init_oracle_client()  # No need for lib_dir on Streamlit Cloud if Oracle Instant Client is installed
 except cx_Oracle.ProgrammingError:
     pass
 
