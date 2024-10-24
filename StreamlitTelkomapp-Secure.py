@@ -4,7 +4,7 @@ import pandas as pd
 import io
 import plotly.express as px
 import os
-from python-dotenv import load_dotenv
+from dotenv import load_dotenv
 
 load_dotenv()
 
