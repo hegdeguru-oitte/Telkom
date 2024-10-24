@@ -3,3 +3,6 @@ cx_Oracle
 pandas
 plotly
 openpyxl
+dotenv
+io
+os
