@@ -3,6 +3,6 @@ cx_Oracle==8.3
 pandas
 plotly
 openpyxl
-dotenv
+python-dotenv
 io
 os
